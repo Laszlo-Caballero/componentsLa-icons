@@ -10,7 +10,7 @@
   "exports": {
     ".": {
       "import": "./dist/componentsLa-icons.js",
-      "require": "./dist/componentsLa-icons.umd.cjs"
+      "require": "./dist/componentsLa-iconsf.umd.cjs"
     }
   },
   "scripts": {

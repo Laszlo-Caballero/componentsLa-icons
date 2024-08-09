@@ -31,3 +31,30 @@ export default function Page() {
   );
 }
 ```
+
+## Aportar
+
+1. Clonar proyecto
+
+```bash
+  git clone https://github.com/Laszlo-Caballero/componentsLa-icons.git
+```
+
+2. Instalar dependencias
+
+```bash
+  npm install
+```
+
+3. Compilar proyecto
+
+```bash
+  npm run build
+```
+
+### TODOS
+
+- Iconos
+  - [ ] Añadir iconos
+  - [x] Ponerlos en un solo archivo ⚠️
+  - [x] Poner prop de color en hexadecimal
