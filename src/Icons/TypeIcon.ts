@@ -4,4 +4,5 @@ export interface SvgComponentProps extends SVGProps<SVGSVGElement> {
   width: number;
   height: number;
   color?: string;
+  fill?: string;
 }
