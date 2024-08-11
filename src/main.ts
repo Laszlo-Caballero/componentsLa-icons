@@ -6,3 +6,5 @@ export { GoogleIcon } from "./Icons/GoogleIcon";
 export { CopyIcon } from "./Icons/CopyIcon";
 export { DeleteIcon } from "./Icons/DeleteIcon";
 export { SendIcon } from "./Icons/SendIcon";
+export { LastRightIcon } from "./Icons/LastRightIcon";
+export { LastLeftIcon } from "./Icons/LastLeftIcon";
