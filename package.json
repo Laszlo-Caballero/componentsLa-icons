@@ -49,6 +49,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "@eslint/js": "^9.8.0",
     "@types/node": "^22.1.0",
     "@types/react": "^18.3.3",
