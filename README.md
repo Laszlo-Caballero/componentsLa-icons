@@ -46,7 +46,37 @@ export default function Page() {
   npm install
 ```
 
-3. Compilar proyecto
+## Iconos Automaticos
+
+Para no tener que hacer los iconos manualmente, tenemos una herramienta que ayuda a hacerlos
+
+3. Instalacion de el entorno python
+
+   1. Instalar virtualenv
+
+      ```bash
+        pip install virtualenv
+      ```
+
+   2. Dentro de Svgs
+
+   ```bash
+     python -m venv env
+   ```
+
+   3. Instalar las Dependencias
+
+   ```bash
+     pip install -r requirements.txt
+   ```
+
+   4. Ejecutar Interfaz flet
+
+   ```bash
+     flet run
+   ```
+
+4. Compilar proyecto
 
 ```bash
   npm run build
