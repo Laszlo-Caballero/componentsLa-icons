@@ -88,3 +88,6 @@ Para no tener que hacer los iconos manualmente, tenemos una herramienta que ayud
   - [ ] Añadir iconos
   - [x] Ponerlos en un solo archivo ⚠️
   - [x] Poner prop de color en hexadecimal
+- Svgs
+  - [ ] Comprobar si rellenaron el formulario
+  - [ ] Modal para error
