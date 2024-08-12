@@ -76,6 +76,12 @@ Para no tener que hacer los iconos manualmente, tenemos una herramienta que ayud
      flet run
    ```
 
+   5. O puedes desde la raiz Ejecutar
+
+   ```bash
+     npm run dev
+   ```
+
 4. Compilar proyecto
 
 ```bash
