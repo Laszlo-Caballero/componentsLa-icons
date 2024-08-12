@@ -54,9 +54,9 @@ Para no tener que hacer los iconos manualmente, tenemos una herramienta que ayud
 
    1. Instalar virtualenv
 
-      ```bash
-        pip install virtualenv
-      ```
+   ```bash
+     pip install virtualenv
+   ```
 
    2. Dentro de Svgs
 
