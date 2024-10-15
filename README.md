@@ -97,3 +97,4 @@ Para no tener que hacer los iconos manualmente, tenemos una herramienta que ayud
 - Svgs
   - [ ] Comprobar si rellenaron el formulario
   - [ ] Modal para error
+  - [ ] cambiar el patron
