@@ -1,23 +1,9 @@
-import { FC } from "react";
-import { SvgComponentProps } from "./TypeIcon";
+import { FC, SVGProps } from "react";
 
-export const DeleteIcon: FC<SvgComponentProps> = ({
-  height,
-  width,
-  color = "#000",
-  fill = "none",
-  ...props
-}) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={height}
-    height={width}
-    fill={fill}
-    viewBox="0 0 24 24"
-    {...props}
-  >
+export const DeleteIcon: FC<SVGProps<SVGSVGElement>> = ({ ...props }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
     <path
-      stroke={color}
+      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
