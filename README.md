@@ -99,3 +99,4 @@ Para no tener que hacer los iconos manualmente, tenemos una herramienta que ayud
   - [ ] Comprobar si rellenaron el formulario
   - [ ] Modal para error
   - [ ] cambiar el patron
+  - [ ] quitar el los props
