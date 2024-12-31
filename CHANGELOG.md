@@ -1,3 +1,10 @@
+# [0.3.0](https://github.com/Laszlo-Caballero/componentsLa-icons/compare/v0.2.0...v0.3.0) (2024-12-31)
+
+
+### Features
+
+* **icons:** more icons ([40bbdbb](https://github.com/Laszlo-Caballero/componentsLa-icons/commit/40bbdbbf20c8f580e29e584b8ed987895b625b86))
+
 # [0.2.0](https://github.com/Laszlo-Caballero/componentsLa-icons/compare/v0.1.0...v0.2.0) (2024-12-31)
 
 
