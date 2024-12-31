@@ -26,7 +26,7 @@ def SaveComponent(nombre: str, codigo: str):
     directorio_superior = os.path.dirname(directorio_script)
     sub_carpeta = os.path.join(directorio_superior, "src")
     iconos = os.path.join(sub_carpeta, "Icons")
-    plantilla = 'import { FC } from "react"; \nimport { SvgComponentProps } from "./TypeIcon";\nexport const ' + nombre +  ': FC<SvgComponentProps> = ({height,width,color = "#000",fill = "none",...props}) =>'
+    plantilla = 'import { FC, SVGProps } from "react"; \nexport const ' + nombre +  ': FC<SVGProps<SVGSVGElement>> = ({...props}) =>'
     plantilla += f"\n({codigo});"
     archivo = os.path.join(iconos, f"{nombre}.tsx")
     

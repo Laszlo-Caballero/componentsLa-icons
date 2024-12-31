@@ -1,22 +1,32 @@
 import re
 def Parser(codigo: str):
-    palabras_to_parse = ["width=", "height=", "fill=", "stroke="]
-    palabras_code = ['{width}', '{height}', '{fill}', '{color}']
-
-    for i in range(len(palabras_to_parse)):
-        palabra = palabras_to_parse[i]
-        patron = rf'{palabra}"[^"]*"'
-        coincidencias = re.findall(patron, codigo)
-        if len(coincidencias) == 1:
-            for palabra in coincidencias:
-                codigo = codigo.replace(palabra, f"{palabras_to_parse[i]}{palabras_code[i]}", 1)
-        elif len(coincidencias) > 1 and palabra == "fill=":
-            for palabra in coincidencias:
-                codigo = codigo.replace(palabra, f"{palabras_to_parse[i]}{palabras_code[3]}", 1)
-        elif len(coincidencias) > 1 and palabra == "width=":
-            codigo = codigo.replace(coincidencias[0], f"{palabras_to_parse[i]}{palabras_code[i]}", 1) 
+    palabras_eliminar = ["width", "height"]
+    palabras_reemplazar = ["fill", "stroke"]
     
     
-    codigo = codigo.replace(">", " {...props}>", 1)
+    palabras_no_cammel_case = ["xmlns:xlink", "xml:space"]
+    palabras_cammel_case = ["xmlnsXlink", "xmlSpace"]
+    
+    # Eliminamos las palabras que no necesitamos
+    for palabra in palabras_eliminar:
+        codigo = re.sub(f'{palabra}=".*?"', "", codigo)
+    
+    #Reemplazamos las palabras que necesitamos
+    for palabra in palabras_reemplazar:
+        codigo = re.sub(f'{palabra}=".*?"', f'{palabra}="currentColor"', codigo)
+    
+    
+    #Reemplazamos las palabras que necesitamos
+    for i in range(len(palabras_no_cammel_case)):
+        codigo = re.sub(f'{palabras_no_cammel_case[i]}', f'{palabras_cammel_case[i]}', codigo)
+    
+    
+    
+    # Añadir al final del primer > el atributo {...props} solo el primero
+    codigo = re.sub(">", " {...props}>", codigo, 1)
+    
+    
+    
+    
     return codigo
 
