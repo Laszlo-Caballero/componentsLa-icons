@@ -8,3 +8,7 @@ export { DeleteIcon } from "./Icons/DeleteIcon";
 export { SendIcon } from "./Icons/SendIcon";
 export { LastRightIcon } from "./Icons/LastRightIcon";
 export { LastLeftIcon } from "./Icons/LastLeftIcon";
+export { PlusIcon } from "./Icons/PlusIcon";
+export { ConfigIcon } from "./Icons/ConfigIcon";
+export { CloseCrossIcon } from "./Icons/CloseCrossIcon";
+export { UserCircleIcon } from "./Icons/UserCircleIcon";
