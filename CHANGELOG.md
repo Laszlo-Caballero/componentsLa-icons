@@ -1,3 +1,10 @@
+# [0.2.0](https://github.com/Laszlo-Caballero/componentsLa-icons/compare/v0.1.0...v0.2.0) (2024-12-31)
+
+
+### Features
+
+* **fix:** change props only use className ([8681d9c](https://github.com/Laszlo-Caballero/componentsLa-icons/commit/8681d9c014db8a5d2ca7f166922a4d8f6b9fc0cd))
+
 # [0.1.0](https://github.com/Laszlo-Caballero/componentsLa-icons/compare/v0.0.3...v0.1.0) (2024-08-11)
 
 
