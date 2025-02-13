@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/Laszlo-Caballero/componentsLa-icons/compare/v0.3.0...v0.4.0) (2025-02-13)
+
+
+### Features
+
+* **parser:** mejorar el manejo de atributos SVG para incluir nuevos casos y condiciones ([d243675](https://github.com/Laszlo-Caballero/componentsLa-icons/commit/d243675964f6dfd1e469c9d2d8b3fbaf5052e752))
+
 # [0.3.0](https://github.com/Laszlo-Caballero/componentsLa-icons/compare/v0.2.0...v0.3.0) (2024-12-31)
 
 
